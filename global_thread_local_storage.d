@@ -48,6 +48,7 @@ void threadDec() {
 void main() {
   spawn(&threadInc);
   spawn(&threadDec);
+  thread_joinAll();
 
   writeln("main:", global_tls, Foo.static_class_var_is_also_tls, Foo.static_shared_class_var);  // output: main:0
 }
