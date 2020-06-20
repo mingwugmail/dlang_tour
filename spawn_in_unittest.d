@@ -47,7 +47,7 @@ void safePrint(T...)(T args)
     }
 }
 
-void threadProducer(shared(SafeQueue!int) queue,
+static void threadProducer(shared(SafeQueue!int) queue,
     shared(int)* queueCounter)
 {
     import std.range : iota;
@@ -59,7 +59,7 @@ void threadProducer(shared(SafeQueue!int) queue,
     }
 }
 
-void threadConsumer(Tid owner,
+static void threadConsumer(Tid owner,
     shared(SafeQueue!int) queue,
     shared(int)* queueCounter)
 {
