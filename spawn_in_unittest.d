@@ -38,7 +38,7 @@ Note that variadic parameters are used
 for args! That is args might be 0 .. N
 parameters.
 */
-void safePrint(T...)(T args)
+static void safePrint(T...)(T args)
 {
     // Just executed by one concurrently
     synchronized {
