@@ -10,3 +10,9 @@ FYI: I installed on MacOS; you may have trouble on other OS.
 $ compile  app.e -o app  # Eiffel compiler command
 $ ./app
 ```
+
+To see the generated C code:
+```
+$ compile_to_c app.e
+```
+
