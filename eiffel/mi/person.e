@@ -1,5 +1,8 @@
 class PERSON
 
+create {ANY}
+   make
+
 feature {ANY}
    name: STRING is do Result := "A person have only *one* name"  end
    addr: STRING is do Result := "A person can have *multi*.addr" end

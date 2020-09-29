@@ -8,10 +8,14 @@ feature {ANY}
 
    usr: US_RESIDENT
 
+   print_addr(p: PERSON) is do
+      io.put_string(p.addr + "%N")
+   end
+
    main is
       do
 	 create usr.make
-         io.put_string(usr.addr + "%N")
+	 print_addr(usr)
       end
 
 end

@@ -1,5 +1,7 @@
 class US_RESIDENT
-inherit PERSON undefine addr end
+inherit PERSON
+  undefine addr
+end
 
 create {ANY}
    make
