@@ -11,7 +11,7 @@ feature {ANY}
    main is
       do
 	 create usr.make
-      -- io.put_string(usr.addr + "%N")
+         io.put_string(usr.addr + "%N")
       end
 
 end
