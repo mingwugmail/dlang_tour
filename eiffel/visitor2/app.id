@@ -1,0 +1,203 @@
+4 "REAL" 
+#
+27 "STD_OUTPUT" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/io/std_output.e"
+class-name: STD_OUTPUT
+parent-count: 1 parents: 19 
+c-type: T27 reference: yes
+ref-status: live id-field: yes 
+run-time-set-count: 1
+run-time-set:
+	STD_OUTPUT (27)
+#
+10 "INTEGER_16" 
+#
+2 "INTEGER_32" 
+#
+11 "INTEGER_64" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/integer_64.e"
+class-name: INTEGER_64
+parent-count: 1 parents: 22 
+c-type: T11 reference: no
+#
+31 "US_RESIDENT" 
+class-path: "/Users/zhou/project/contrib/dlang_tour/eiffel/visitor2/us_resident.e"
+class-name: US_RESIDENT
+parent-count: 1 parents: 17 
+#
+20 "INPUT_STREAM" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/io/input_stream.e"
+class-name: INPUT_STREAM
+parent-count: 1 parents: 21 
+#
+30 "VISITOR" 
+class-path: "/Users/zhou/project/contrib/dlang_tour/eiffel/visitor2/visitor.e"
+class-name: VISITOR
+parent-count: 3 parents: 32 31 17 
+c-type: T30 reference: yes
+ref-status: live id-field: yes 
+run-time-set-count: 1
+run-time-set:
+	VISITOR (30)
+#
+19 "OUTPUT_STREAM" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/io/output_stream.e"
+class-name: OUTPUT_STREAM
+parent-count: 0
+#
+5 "DOUBLE" 
+#
+2 "INTEGER" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/integer.e"
+class-name: INTEGER
+parent-count: 1 parents: 22 
+c-type: T2 reference: no
+#
+14 "PLATFORM" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/platform.e"
+class-name: PLATFORM
+parent-count: 1 parents: 15 
+#
+29 "SAFE_EQUAL" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/safe_equal.e"
+class-name: SAFE_EQUAL
+parent-count: 0
+#
+9 "NATIVE_ARRAY[CHARACTER]" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/native_array.e"
+class-name: NATIVE_ARRAY
+parent-count: 1 parents: 29 
+c-type: T9 reference: no
+#
+26 "TUPLE" 
+class-path: "TUPLE"
+class-name: TUPLE
+parent-count: 0
+#
+24 "NUMERIC" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/numeric.e"
+class-name: NUMERIC
+parent-count: 1 parents: 25 
+#
+17 "PERSON" 
+class-path: "/Users/zhou/project/contrib/dlang_tour/eiffel/visitor2/person.e"
+class-name: PERSON
+parent-count: 0
+c-type: T17 reference: yes
+ref-status: dead 
+run-time-set-count: 1
+run-time-set:
+	VISITOR (30)
+#
+33 "BANK" 
+class-path: "/Users/zhou/project/contrib/dlang_tour/eiffel/visitor2/bank.e"
+class-name: BANK
+parent-count: 0
+c-type: T33 reference: yes
+ref-status: live id-field: yes 
+run-time-set-count: 1
+run-time-set:
+	BANK (33)
+#
+7 "STRING" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/string.e"
+class-name: STRING
+parent-count: 2 parents: 25 23 
+c-type: T7 reference: yes
+ref-status: live id-field: yes 
+run-time-set-count: 1
+run-time-set:
+	STRING (7)
+#
+32 "UK_RESIDENT" 
+class-path: "/Users/zhou/project/contrib/dlang_tour/eiffel/visitor2/uk_resident.e"
+class-name: UK_RESIDENT
+parent-count: 1 parents: 17 
+#
+28 "NATIVE_ARRAY" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/native_array.e"
+class-name: NATIVE_ARRAY
+parent-count: 1 parents: 29 
+#
+16 "DOCTOR" 
+class-path: "/Users/zhou/project/contrib/dlang_tour/eiffel/visitor2/doctor.e"
+class-name: DOCTOR
+parent-count: 0
+c-type: T16 reference: yes
+ref-status: live id-field: yes 
+run-time-set-count: 1
+run-time-set:
+	DOCTOR (16)
+#
+21 "STRING_HANDLER" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/string_handler.e"
+class-name: STRING_HANDLER
+parent-count: 0
+#
+13 "ANY" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/any.e"
+class-name: ANY
+parent-count: 1 parents: 14 
+#
+12 "APP" 
+class-path: "/Users/zhou/project/contrib/dlang_tour/eiffel/visitor2/app.e"
+class-name: APP
+parent-count: 0
+c-type: T12 reference: yes
+ref-status: live id-field: yes 
+run-time-set-count: 1
+run-time-set:
+	APP (12)
+#
+15 "GENERAL" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/general.e"
+class-name: GENERAL
+parent-count: 0
+#
+23 "COMPARABLE" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/comparable.e"
+class-name: COMPARABLE
+parent-count: 1 parents: 13 
+#
+1 "INTEGER_8" 
+#
+3 "CHARACTER" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/character.e"
+class-name: CHARACTER
+parent-count: 2 parents: 25 23 
+c-type: T3 reference: no
+#
+25 "HASHABLE" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/hashable.e"
+class-name: HASHABLE
+parent-count: 0
+#
+6 "BOOLEAN" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/boolean.e"
+class-name: BOOLEAN
+parent-count: 1 parents: 13 
+c-type: T6 reference: no
+#
+22 "INTEGER_GENERAL" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/integer_general.e"
+class-name: INTEGER_GENERAL
+parent-count: 2 parents: 24 23 
+#
+0 "NONE" 
+#
+8 "POINTER" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/kernel/pointer.e"
+class-name: POINTER
+parent-count: 2 parents: 25 21 
+c-type: T8 reference: no
+#
+18 "STD_INPUT_OUTPUT" 
+class-path: "/Users/zhou/project/SmartEiffel/lib/io/std_input_output.e"
+class-name: STD_INPUT_OUTPUT
+parent-count: 2 parents: 20 19 
+c-type: T18 reference: yes
+ref-status: live id-field: yes 
+run-time-set-count: 1
+run-time-set:
+	STD_INPUT_OUTPUT (18)
+#
